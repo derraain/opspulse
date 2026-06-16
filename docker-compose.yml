@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  opspulse-monitor:
+    build: .
+    container_name: opspulse_monitor
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./config:/app/config

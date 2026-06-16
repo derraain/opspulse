@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Cloudflare Public DNS",
+        "url": "https://1.1.1.1",
+        "interval": 10,
+        "expected_status": 200
+    },
+    {
+        "name": "Dummy JSON API",
+        "url": "https://jsonplaceholder.typicode.com/todos/1",
+        "interval": 15,
+        "expected_status": 200
+    },
+    {
+        "name": "Simulated Broken Service",
+        "url": "https://httpstat.us/500",
+        "interval": 5,
+        "expected_status": 200
+    }
+]
