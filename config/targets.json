@@ -13,7 +13,7 @@
     },
     {
         "name": "Simulated Broken Service",
-        "url": "https://httpstat.us/500",
+        "url": "https://nghttp2.org/httpbin/status/500",
         "interval": 5,
         "expected_status": 200
     }
